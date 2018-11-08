@@ -17,3 +17,18 @@ add_action("woosms_extends_variables", function(Extensions\Hook\Variables $varia
 
 }, 20, 2);
 ```
+
+## Ready made solutions
+
+**woosms-aftership-exntesion** - Customer & Admin SMS variables extension
+```
+<_aftership_tracking_provider>,
+<_aftership_tracking_provider_name>,
+<_aftership_tracking_required_fields>,
+<_aftership_tracking_number>,
+<_aftership_tracking_shipdate>,
+<_aftership_tracking_postal>,
+<_aftership_tracking_account>,
+<_aftership_tracking_key>,
+<_aftership_tracking_destination_country>
+```
