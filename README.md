@@ -20,7 +20,7 @@ add_action("woosms_extends_variables", function(Extensions\Hook\Variables $varia
 
 ## Ready made solutions
 
-**woosms-aftership-exntesion** - Customer & Admin SMS variables extension
+**woosms-aftership-exntesion** - Customer & Admin SMS variables extension https://wordpress.org/plugins/aftership-woocommerce-tracking/
 ```
 <_aftership_tracking_provider>,
 <_aftership_tracking_provider_name>,
