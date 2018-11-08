@@ -22,13 +22,7 @@ add_action("woosms_extends_variables", function(Extensions\Hook\Variables $varia
 
 **woosms-aftership-exntesion** - Customer & Admin SMS variables extension https://wordpress.org/plugins/aftership-woocommerce-tracking/
 ```
-<_aftership_tracking_provider>,
-<_aftership_tracking_provider_name>,
-<_aftership_tracking_required_fields>,
-<_aftership_tracking_number>,
-<_aftership_tracking_shipdate>,
-<_aftership_tracking_postal>,
-<_aftership_tracking_account>,
-<_aftership_tracking_key>,
-<_aftership_tracking_destination_country>
+<_aftership_tracking_provider>, <_aftership_tracking_provider_name>, <_aftership_tracking_required_fields>,
+<_aftership_tracking_number>, <_aftership_tracking_shipdate>, <_aftership_tracking_postal>,
+<_aftership_tracking_account>, <_aftership_tracking_key>, <_aftership_tracking_destination_country>
 ```
