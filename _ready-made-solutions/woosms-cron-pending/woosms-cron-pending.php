@@ -17,7 +17,7 @@
  * 1. To wp-config.php -> define( 'DISABLE_WP_CRON', true);
  * 2. Define WOOSMS_CRON_JON_PERIOD in minutes
  * 3. Define run() function
- * 4. Set cron job on server to script https://www.jisrael.co.il/wp-cron.php?doing_wp_cron
+ * 4. Set cron job on server to script https://example.com/wp-cron.php?doing_wp_cron
  */
 
 !defined('ABSPATH') && exit;
