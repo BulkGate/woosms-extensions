@@ -32,3 +32,8 @@ add_action("woosms_extends_variables", function(Extensions\Hook\Variables $varia
 <_wcst_order_trackno>, <_wcst_track_without_tracking_code>, <_wcst_order_dispatch_date'>,
 <_wcst_custom_text'>, <_wcst_order_trackname'>, <_wcst_order_trackurl'>, <_wcst_order_track_http_url'>
 ```
+
+**woosms-eupago-multibanco** - Customer & Admin SMS variables extension https://wordpress.org/plugins/eupago-for-woocommerce/
+```
+<_eupago_multibanco_entidade>, <_eupago_multibanco_referencia>
+```
