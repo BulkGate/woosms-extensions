@@ -2,7 +2,7 @@
 /*
   Plugin Name: WooSMS - GLS tracking number
   Plugin URI: http://www.woo-sms.net/
-  Description: Extends Admin & Customer SMS -&gt; &lt;gls_info&gt; &lt;gls_client_ref&gt; &lt;gls_cod_amount&gt; &lt;gls_cod_ref&gt; &lt;gls_pickup_date&gt; variables | Gls Shipping - GLS Parcel Order Generator <a href=" https://www.sprintsoft.ro/">https://www.sprintsoft.ro/</a>
+  Description: Extends Admin & Customer SMS -&gt; &lt;gls_info&gt; &lt;gls_client_ref&gt; &lt;gls_cod_amount&gt; &lt;gls_cod_ref&gt; &lt;gls_pickup_date&gt; variables | Gls Shipping - GLS Parcel Order Generator <a href="https://www.sprintsoft.ro/">https://www.sprintsoft.ro/</a>
   Version: 1.0.0
   Author: BulkGate.com - Lukáš Piják
   Author URI: http://www.bulkgate.com/
