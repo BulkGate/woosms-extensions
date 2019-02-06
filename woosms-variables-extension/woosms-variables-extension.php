@@ -36,7 +36,7 @@ if (is_plugin_active('woosms-sms-module-for-woocommerce/woosms-sms-module-for-wo
         if($result->getNumRows())
         {
             $row = $result->getRow();
-            $variables->set('tracking_number', $row['tracking_number']);
+            $variables->set('tracking_number', $row->tracking_number);
         }
 
         */
