@@ -34,16 +34,16 @@ if (is_plugin_active('woosms-sms-module-for-woocommerce/woosms-sms-module-for-wo
         if($result->getNumRows() > 0)
         {
             $row = $result->getRow();
-            $variables->set('dpd_shipment_reference_number', $row['dpd_shipment_reference_number']);
-            $variables->set('dpd_shipment_id', $row['dpd_shipment_id']);
+            $variables->set('dpd_shipment_reference_number', $row->dpd_shipment_reference_number);
+            $variables->set('dpd_shipment_id', $row->dpd_shipment_id);
             
-            $tracking = $database->execute('SELECT `tracking_id`, `refference_tracking_id`, `tracking_url` FROM `'.$database->table('zitec_dpd_shipment_tracking').'` WHERE `shipment_id` = "'.$database->escape($row['shipment_id']).'" ORDER BY `tracking_id` DESC LIMIT 1');
+            $tracking = $database->execute('SELECT `tracking_id`, `refference_tracking_id`, `tracking_url` FROM `'.$database->table('zitec_dpd_shipment_tracking').'` WHERE `shipment_id` = "'.$database->escape($row->shipment_id).'" ORDER BY `tracking_id` DESC LIMIT 1');
             
             if($tracking->getNumRows() > 0)
             {
                 $row = $tracking->getRow();
-                $variables->set('dpd_reference_tracking_id', $row['refference_tracking_id']);
-                $variables->set('dpd_tracking_url', $row['tracking_url']);
+                $variables->set('dpd_reference_tracking_id', $row->refference_tracking_id);
+                $variables->set('dpd_tracking_url', $row->tracking_url);
             }
         }
     }, 20, 2);
