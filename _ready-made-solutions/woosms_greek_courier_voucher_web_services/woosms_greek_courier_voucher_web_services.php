@@ -2,7 +2,7 @@
 /*
   Plugin Name: WooSMS - Greek Courier Voucher Web Services
   Plugin URI: http://www.woo-sms.net/
-  Description: Variables <gcvws_courier_tracking>, <gcvws_courier>
+  Description: Variables &lt;gcvws_courier_tracking&gt;, &lt;gcvws_courier&gt;
   Version: 1.0.0
   Author: TOPefekt s.r.o. - Lukáš Piják
   Author URI: http://www.bulkgate.com/
