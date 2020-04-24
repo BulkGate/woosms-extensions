@@ -2,7 +2,7 @@
 /*
   Plugin Name: WooSMS - Nova Poshta
   Plugin URI: http://www.woo-sms.net/
-  Description: Nova Poshta extension https://wordpress.org/plugins/nova-poshta-ttn/
+  Description: Nova Poshta extension <a href="https://wordpress.org/plugins/nova-poshta-ttn/">https://wordpress.org/plugins/nova-poshta-ttn/</a> added variable <code>&lt;novaposhta_ttn&gt;</code>
   Version: 1.0.0
   Author: TOPefekt s.r.o. - Lukáš Piják
   Author URI: http://www.bulkgate.com/
