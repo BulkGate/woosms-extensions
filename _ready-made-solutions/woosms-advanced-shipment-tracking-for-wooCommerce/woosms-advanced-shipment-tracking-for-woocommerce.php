@@ -1,8 +1,8 @@
 <?php
 /*
-  Plugin Name: WooSMS - Advanced Shipment Tracking for WooCommerce
+  Plugin Name: WooSMS - Advanced Shipment Tracking for WooCommerce 
   Plugin URI: http://www.woo-sms.net/
-  Description: Extends Customer & Admin SMS variables <a href="https://www.zorem.com/product/woocommerce-advanced-shipment-tracking/">https://www.zorem.com/product/woocommerce-advanced-shipment-tracking/</a>
+  Description: Extends Customer & Admin SMS variables <a href="https://www.zorem.com/product/woocommerce-advanced-shipment-tracking/">https://www.zorem.com/product/woocommerce-advanced-shipment-tracking/</a> <code>&lt;tracking_provider&gt; &lt;tracking_number&gt; &lt;tracking_product_code&gt; &lt;date_shipped&gt; &lt;tracking_id&gt;</code>
   Version: 1.0.0
   Author: TOPefekt s.r.o. - Lukáš Piják
   Author URI: http://www.bulkgate.com/
