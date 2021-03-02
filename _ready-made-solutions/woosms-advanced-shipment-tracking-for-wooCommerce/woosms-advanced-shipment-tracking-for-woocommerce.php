@@ -50,7 +50,14 @@ if (is_plugin_active('woosms-sms-module-for-woocommerce/woosms-sms-module-for-wo
                             {
                                 foreach ($data as $k => $v)
                                 {
-                                    $variables->set($k, (string) $v);
+                                    if ($k === 'date_shipped')
+                                    {
+                                        $variables->set($k, date('d.m.Y H:i', (int) $v));
+                                    }
+                                    else 
+                                    {
+                                        $variables->set($k, (string) $v);
+                                    }   
                                 }
                             }
                         }
